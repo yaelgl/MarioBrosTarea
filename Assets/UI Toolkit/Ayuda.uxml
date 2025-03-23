@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Ayuda.uss?fileID=7433441132597879392&amp;guid=6fd3ebcd682740d4aa5cf93b84dbfbb2&amp;type=3#Ayuda" />
+    <engine:VisualElement name="Contenedor1" style="flex-grow: 1;">
+        <engine:VisualElement name="Titulo" class="titulo">
+            <engine:Label text="Tarea Unity" name="Titulo" class="txtitulo" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Botones" class="botones" style="flex-grow: 1;">
+            <engine:Label text="What is Lorem Ipsum?&#10;&#10;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." name="Ayuda" class="textoayuda" />
+            <engine:Button text="X&#10;" name="BotonR" class="botonregreso" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Nombre" class="nombre" style="flex-grow: 1;">
+            <engine:Label text="Yael Michel García López A01750911" name="Autor" class="txtautor" />
+            <engine:Button text="X" name="Salir" class="botonx" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

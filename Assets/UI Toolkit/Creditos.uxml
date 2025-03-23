@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Creditos.uss?fileID=7433441132597879392&amp;guid=33058a1c85b84aa41af8a9231f8d2835&amp;type=3#Creditos" />
+    <engine:VisualElement name="Encabezado" class="encabezado" style="width: auto; height: 300px; bottom: 0; background-color: rgb(116, 116, 116); -unity-text-outline-color: rgba(247, 225, 225, 0.61);">
+        <engine:Label text="Créditos" name="Titulo" class="titulo" />
+        <engine:Button text="X" name="BotonR" class="boton" />
+    </engine:VisualElement>
+    <engine:VisualElement name="Contenedor" class="contCreditos" style="flex-grow: 1;" />
+</engine:UXML>
